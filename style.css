@@ -513,6 +513,10 @@ table{
     .text13,.text15{
         font-size: 1.em;
     }
+    .navbar-brand{
+        width: 145;
+        height: 47;
+    }
 }
 .text12,.text13,.text14,.text15,.text16{
     text-align: center;
