@@ -1,0 +1,519 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.navbar{
+    background: #fff;
+    align-items: center;
+
+    
+}
+.navbar-nav{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    align-items: center;
+    padding: 0 1em;
+    padding-inline-start: 2.5em;
+    
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#3a3a3a;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#0274be ;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color:#0274be ;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+.text1{
+    color: #ff4935;
+    font-family:Sans-serif;
+    font-size: 0.800em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2.5em;
+    letter-spacing: 4.2px;
+}
+.text2{
+    color: #080f44;
+    font-family: sans-serif;
+    font-size: 4em;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+.header-hero{
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 2em;
+    text-align: center;
+}
+.header-banner{
+    margin-bottom: 2em;
+}
+
+.btn1{
+    font-family:Sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 2.5em;
+    letter-spacing: 3.2px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #ff4935;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 2px 0px 0px #e23522;
+}
+.text3{
+    color: #080f44;
+    font-family:  Sans-serif;
+    font-size: 3.3em;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+.text4{
+    text-align: center;
+    color: #5e6067;
+    font-family:  Sans-serif;
+    font-size: 1.175em;
+    font-weight: 300;
+    line-height: 1.545em;
+    letter-spacing: 0px;
+    margin-top: 0.5em;
+}
+.description{
+    text-align: center;
+    margin-top: 4em;
+}
+.card-img-top {
+    width: 60px;
+    margin-top: 2em;
+}
+.card1{
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+    border: none;
+}
+.card3{
+    color: #141824;
+    font-family: Sans-serif;
+    font-size: 1.375em;
+    font-weight: 400;
+    line-height: 1.273em;
+    letter-spacing: 0px;
+}
+.card3{
+    color: #5e6067;
+    font-family: Sans-serif;
+    line-height: 1.545em;
+    letter-spacing: 0px;
+}
+.text5{
+    color: #ff4935;
+    font-family: Sans-serif;
+    font-size: 0.875em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 4.2px;
+}
+.text6{
+    color: #141824;
+    font-family:  Sans-serif;
+    font-size: 2.25em;
+    font-weight: 400;
+    line-height: 1.278em;
+    letter-spacing: 0px;
+    margin-top: 1em;
+}
+.text7{
+    color: #5e6067;
+    font-family:  Sans-serif;
+    line-height: 1.667em;
+    letter-spacing: 0px;
+    margin-top: 1em;
+}
+.strategies-txt{
+    text-align: left;
+    margin-top: 2em;
+}
+.strategies-img{
+    align-items: center;
+}
+.strategies{
+    margin-top: 5em;
+}
+.list-1{
+    margin-top: 3em;
+}
+.icons{
+    color: #ff4935;
+    font-size: var(--e-icon-list-icon-size);
+    width: 1.25em;
+}
+.list-txt{
+    color: #141824;
+    padding-left: 18px;
+    font-family: Sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 3.273em;
+    letter-spacing: 0px;
+}
+.text8{
+    color: #080f44;
+    font-family: Sans-serif;
+    font-size: 3.2em;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+.text9{
+    text-align: left;
+    color: #5e6067;
+    font-family: Sans-serif;
+    line-height: 1.667em;
+    letter-spacing: 0px;
+    margin-top: 1.5em;
+}
+.btn2{
+    font-family:Sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 2.5em;
+    letter-spacing: 3.2px;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #ff4935;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 2px 0px 0px #e23522;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.our-service{
+    margin-top: 4em;
+}
+.text12{
+    color: #ff4935;
+    font-family:  Sans-serif;
+    font-size: 0.800em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 4.2px;
+}
+.text13{
+    text-align: left;
+    color: #5e6067;
+    font-family:  Sans-serif;
+    font-size: 0.800em;
+    line-height: 1.667em;
+    letter-spacing: 0px;
+    margin-top: 1em;
+}
+.text14{
+    color: #ff4935;
+    font-family:  Sans-serif;
+    font-size: 0.800em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 4.2px;
+    margin-top: 3.1em;
+}
+.text15{
+    text-align: left;
+    color: #5e6067;
+    font-family:  Sans-serif;
+    font-size: 0.800em;
+    line-height: 1.667em;
+    letter-spacing: 0px;
+    margin-top: 1em;
+}
+.text16{
+    color: #ff4935;
+    font-family:  Sans-serif;
+    font-size: 0.800em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 4.2px;
+    margin-top: 1em;
+}
+.text11 .text17{
+    text-align: left;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+.card4{
+    color: #ff4935;
+    font-family:  Sans-serif;
+    font-size: 0.775em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 4.2px;
+}
+.card5{
+    color: #ffffff;
+    font-family:  Sans-serif;
+    font-size: 2.15em;
+    font-weight: 400;
+    line-height: 1.278em;
+    letter-spacing: 0px;
+}
+.card6{
+    margin-bottom: 1.6em;
+    text-align: left;
+    color: #5e6067;
+    font-family: "Tajawal", Sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.667em;
+    letter-spacing: 0px;
+}
+.list-txt1{
+    font-family:  Sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 3.273em;
+    letter-spacing: 0px;
+    color: #141824;
+}
+.card8{
+    border: none;
+    background-color:  rgb(195,195,216);
+    margin: 5px 5px 5px 5px;
+    padding: 60px 50px 50px 60px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 4em;
+}
+.icon3{
+    color: #ffffff;
+    margin-top: 2em;
+}
+.card9{
+    border: none;
+    background-color: rgb(193,222,226);
+    margin: 5px 5px 5px 5px;
+    padding: 60px 50px 50px 60px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 4em;
+}
+.list-2{
+    margin-top: 2em;
+}
+.list-txt2{
+    float: right;
+}
+.text18{
+    color: #ff4935;
+    font-family:  Sans-serif;
+    font-size: 0.775em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 4.2px;
+}
+.text19{
+    color: #080f44;
+    font-family:  Sans-serif;
+    font-size: 3.4em;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0px;
+    margin-bottom: 0.5em;
+}
+.text20{
+    margin-bottom: 1.6em;
+    text-align: left;
+    color: #5e6067;
+    font-family:  Sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.667em;
+    letter-spacing: 0px;
+}
+.lgnd-spt{
+    align-content: center;
+    align-items: center;
+}
+.legndry-support1{
+    margin-top: 8em;
+    margin-left: 1em;
+}
+.lgnd-img{
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.text21{
+    margin-bottom: 1.75em;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-weight: inherit;
+    font-size: 13px;
+    font-size: 1rem;
+}
+.text22{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+.menu-link{
+    text-decoration: none;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.menu-item{
+    list-style: none;
+    
+}
+.footer-area ul{
+    padding-left: 0;
+}
+.menu-link:hover{
+    color: #fff;
+}
+.text24{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-weight: inherit;
+    font-size: 15px;
+    font-size: 1rem;
+    align-items: center;
+}
+td th{
+    padding: 8px;
+    text-align: left;
+    border-width: 0 1px 1px 0;
+    order: 1px solid rgba(0,0,0,.1);
+}
+.table-bd{
+    line-height: 2.1em;
+    text-align: center;
+}
+tr{
+    line-height: 2.1em;
+    text-align: center;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+.search-field{
+    border-width: 0px;
+    border-color: #eaeaea;
+    border-radius: 2px;
+    margin-bottom:4em;
+
+         
+}
+.btn3{
+    border:none;
+    background-color: #fff;
+}
+.form3{
+    border: 1px;
+    border-color: #eaeaea;
+}
+.text25{
+    font-family: sans-serif;
+    font-weight: inherit;
+    font-size: 15px;
+    font-size: 1rem;
+    text-align: center;
+    padding-top:  3em;
+    padding-bottom: 3em;
+    color: #ffffff;
+}
+
+.copy-right{
+    background: #18182a;
+    overflow: hidden;
+}
+.footer-area {
+    margin-top: 3em;
+}   
+.help-support{
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    margin-left: 0.5em;
+}
+.chat-us{
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    margin-right: 0.5em;
+}
+.nice-curve{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    background: #F3F3F6;
+}
+.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #F3F3F6;
+    transform: translate(-4%, 40%);
+    z-index: -1;
+}
+.btn1 .btn2:hover{
+    color: #080f44;
+}
+@media(max-width:768px){
+    .btn1,.btn2 {
+        width: 100%;
+    }
+    .text4{
+        font-size: 0.900em;
+    }
+    .card3{
+        font-size: 1em;
+
+    }
+    .text12,.text14,.text16{
+        font-size: 1em;
+    }
+    .text13,.text15{
+        font-size: 1.em;
+    }
+}
+.text12,.text13,.text14,.text15,.text16{
+    text-align: center;
+}
