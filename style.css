@@ -496,7 +496,7 @@ table{
 .btn1 .btn2:hover{
     color: #080f44;
 }
-@media(max-width:768px){
+@media(max-width:1048px){
     .btn1,.btn2 {
         width: 100%;
     }
@@ -519,5 +519,8 @@ table{
     }
 }
 .text12,.text13,.text14,.text15,.text16{
+    text-align: center;
+}
+.strategies-txt{
     text-align: center;
 }
